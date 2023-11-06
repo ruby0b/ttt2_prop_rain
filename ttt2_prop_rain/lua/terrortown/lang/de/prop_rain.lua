@@ -8,3 +8,4 @@ L["label_roprain_despawn_seconds"] = "Nach wie vielen Sekunden sollen Props desp
 L["label_proprain_sidelength"] = "Wie groß soll die Prop Rain Fläche sein? (Default 300)?"
 L["label_proprain_proptimer"] = "Wie schnell sollen Props spawnen (in ms) ?  (Default 100)"
 L["label_proprain_iterations"] = "Wie viele Props sollen gespawnt werden?  (Default 30)"
+L["label_proprain_prevent_early_explosives"] = "Die ersten X Props sind nicht explosiv (Default 0)"

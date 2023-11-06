@@ -8,12 +8,12 @@ function CLGAMEMODESUBMENU:Populate(parent)
 		label = "prop_rain_help_menu"
 	})
 
-    form:MakeCheckBox({
+	form:MakeCheckBox({
 		label = "label_proprain_despawn_props",
 		serverConvar = "ttt_proprain_despawn_props"
 	})
 
-    form:MakeSlider({
+	form:MakeSlider({
 		label = "label_roprain_despawn_seconds",
 		serverConvar = "ttt_proprain_despawn_seconds",
 		min = 1,
@@ -21,7 +21,7 @@ function CLGAMEMODESUBMENU:Populate(parent)
 		decimal = 0
 	})
 
-    form:MakeSlider({
+	form:MakeSlider({
 		label = "label_proprain_sidelength",
 		serverConvar = "ttt_proprain_sidelength",
 		min = 1,
@@ -29,7 +29,7 @@ function CLGAMEMODESUBMENU:Populate(parent)
 		decimal = 0
 	})
 
-    form:MakeSlider({
+	form:MakeSlider({
 		label = "label_proprain_proptimer",
 		serverConvar = "ttt_proprain_proptimer",
 		min = 50,
@@ -37,10 +37,18 @@ function CLGAMEMODESUBMENU:Populate(parent)
 		decimal = 0
 	})
 
-    form:MakeSlider({
+	form:MakeSlider({
 		label = "label_proprain_iterations",
 		serverConvar = "ttt_proprain_iterations",
 		min = 1,
+		max = 200,
+		decimal = 0
+	})
+
+	form:MakeSlider({
+		label = "label_proprain_prevent_early_explosives",
+		serverConvar = "ttt_proprain_prevent_early_explosives",
+		min = 0,
 		max = 200,
 		decimal = 0
 	})
